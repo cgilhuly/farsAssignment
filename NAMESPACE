@@ -1,4 +1,5 @@
-export("farsAssignment")
+export("fars_summarize_years")
+export("fars_map_state")
 
 import("magrittr")
 import("dplyr")
