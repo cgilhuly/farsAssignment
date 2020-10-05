@@ -1,0 +1,38 @@
+---
+title: "How to use the FARS package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{FARS-Usage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(farsAssignment)
+```
+
+Placeholder content here! Some usage examples to go over:
+
+```{r example1}
+fars_summarize_years(2013:2015)
+```
+
+```{r example2}
+state_num = 11
+fars_map_state(state_num, 2013)
+```
+
+Low-level functions that are not exported:
+
+```{r example3}
+fname <- farsAssignment::make_filename(2015)
+data <- farsAssignment::fars_read(fname)
+data_years <- farsAssignment::fars_read_years(2015)
+```
