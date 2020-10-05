@@ -1,11 +1,15 @@
 Package: farsAssignment
 Type: Package
-Title: What the Package Does (Title Case)
+Title: FARS Summaries & Plots
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Date: 2020-10-05
+Author: Colleen Gilhuly
+Maintainer: Colleen Gilhuly <colleen.gilhuly@mail.utoronto.ca>
+Description: A package for parsing, summarizing, and plotting data from the 
+    US National Highway Traffic Safety Administration's Fatality Analysis 
+    Reporting System (FARS). This is an example package created for the "Building
+    R Packages" course, taught by Roger Peng and Brooke Anderson.
+License: GPL (>= 2)
+URL: https://github.com/cgilhuly/farsAssignment
 Encoding: UTF-8
 LazyData: true

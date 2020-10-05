@@ -1,1 +1,8 @@
-exportPattern("^[[:alpha:]]+")
+export("farsAssignment")
+
+import("magrittr")
+import("dplyr")
+importFrom("readr", "read_csv")
+importFrom("tidyr", "spread")
+importFrom("maps", "map")
+importFrom("graphics", "points")
